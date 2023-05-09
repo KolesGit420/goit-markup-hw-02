@@ -1,1 +1,1 @@
-https://kolesgit420.github.io/goit-markup-hw-01/
+https://kolesgit420.github.io/goit-markup-hw-02/
