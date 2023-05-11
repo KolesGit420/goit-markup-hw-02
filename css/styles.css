@@ -1,0 +1,34 @@
+body {
+  font-family: "Roboto";
+  color: #212121;
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.title-background {
+  background-color: #2f303a;
+}
+
+.logo {
+  font-family: "Raleway";
+}
+
+.list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+button {
+  cursor: pointer;
+}
