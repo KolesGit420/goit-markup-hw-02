@@ -2,40 +2,97 @@ body {
   font-family: "Roboto";
   color: #212121;
 }
-a:hover {
-  color: #2196f3;
-}
-a {
+
+.link {
   color: unset;
   text-decoration: none;
 }
+
+.link:hover {
+  color: #2196f3;
+}
+
+.link:focus {
+  color: #2196f3;
+}
+
 .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   color: #ffffff;
 }
+
 .title-background {
   background-color: #2f303a;
 }
 
-.logo {
-  font-family: "Raleway";
+.button {
+  cursor: pointer;
 }
 
-.list-title {
+.logo {
+  font-family: "Raleway";
+  color: #000;
+}
+
+.first-page-list {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
 }
 
-.description {
+.first-page-list p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #757575;
 }
 
-.button {
-  cursor: pointer;
+.first-page-mid-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.mid-section {
+  background-color: #e5e5e5;
+}
+
+.mid-section div {
+  background-color: #ffffff;
+}
+
+.mid-section h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.mid-section p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.footer-logo {
+  font-size: "Raleway";
+  color: #ffffff;
+}
+
+.contact-foot {
+  color: unset;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-head {
+  color: unset;
+  text-decoration: none;
+  color: #757575;
 }
