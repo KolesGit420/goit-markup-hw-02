@@ -1,30 +1,42 @@
-body {
-  font-family: "Roboto";
-  color: #212121;
+:root {
+  --brand-color: #2196f3;
+  --brand-color-body: #212121;
+  --brand-color-background: #2f303a;
+  --brand-color-description: #757575;
+  --brand-color-bright-background: #f5f4fa;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color-body);
+}
+.blue-logo {
+  color: var(--brand-color);
+}
 .link {
   color: unset;
   text-decoration: none;
 }
 
 .link:hover {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .link:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
-.title-background {
-  background-color: #2f303a;
+.title-wrapper {
+  background-color: var(--brand-color-background);
 }
 
 .button {
@@ -39,24 +51,26 @@ body {
 .first-page-list {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 .first-page-list p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  color: #757575;
+  line-height: 1.71;
+  color: var(--brand-color-description);
 }
 
 .first-page-mid-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.66;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .mid-section {
-  background-color: #e5e5e5;
+  background-color: var(--brand-color-bright-background);
 }
 
 .mid-section div {
@@ -66,17 +80,17 @@ body {
 .mid-section h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 }
 
 .mid-section p {
-  color: #757575;
+  color: var(--brand-color-description);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--brand-color-background);
   color: #ffffff;
 }
 
@@ -85,14 +99,29 @@ body {
   color: #ffffff;
 }
 
-.contact-foot {
+.contact-footer {
   color: unset;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-head {
+.contact-header {
   color: unset;
   text-decoration: none;
-  color: #757575;
+  color: var(--brand-color-description);
+}
+
+.second-page-section {
+}
+
+.second-page-section h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.second-page-section p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--brand-color-description);
 }
